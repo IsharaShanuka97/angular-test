@@ -2,23 +2,16 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-test',
-  template: `
-           <input [(ngModel)]="name" type="text">
-           {{name}}
-            `,
-  styles: [`
-       
-  `]
+  templateUrl: `
+              <h2>Codevolution</h2>
+  `,
+  styleUrls: ['./test.component.css']
 })
 export class TestComponent implements OnInit {
-
-  public name="";
-
 
   constructor() { }
 
   ngOnInit() {
   }
-
 
 }
