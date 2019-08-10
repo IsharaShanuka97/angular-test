@@ -10,3 +10,8 @@ nav .active{
     background-color: yellow;
     
 }
+
+.items li .select{
+    background-color: aqua;
+    color: tomato;
+}
